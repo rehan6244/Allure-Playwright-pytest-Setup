@@ -1,0 +1,5 @@
+# 1. Run tests and save results
+pytest --alluredir=allure-results
+
+# 2. Open the beautiful report (instant local server)
+allure serve allure-results
